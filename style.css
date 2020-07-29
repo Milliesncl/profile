@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 2000px) {
+    .container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 960px) {
+    .container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 720px) {
+    .container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 540px) {
+    .container {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+/*.container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}*/
+
+.card {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  margin: 10px auto;
+  text-align: center;
+  border: 1 solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #253D5B;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  color: #67697C;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0 0;
+}
+
+ul > li {
+  display: inline;
+  margin: 0 8px;
+}
+
+.img_round {
+  position: relative;
+  width: 150px;
+  border-radius: 500px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.img_round:hover{
+  opacity: 0.7;
+  transition: opacity .4s, visibility .4s;
+}
+
+
+#lien-rose{
+  color: #67697C;
+}
+
+#lien-rose:hover{
+  color: #C6878F;
+}
+
+#btn-puce {
+  background-color: #C6878F;
+  color: white;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+#btn-puce:hover {
+  background-color: #d1979d;
+}
+
+.fab {
+  color: #67697C;
+  width: 25px;
+  height: 30px;
+  font-size: 30px;
+}
+
+.fab:hover {
+  color: #C6878F;
+}
